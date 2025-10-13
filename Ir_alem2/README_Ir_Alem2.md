@@ -61,8 +61,6 @@ Fase6_IrAlem2/
 │   └── test/
 │       ├── escova/
 │       └── martelo/
-├── modelos/
-│   └── deeplabv3_pascal_train_aug/
 ├── results/
 │   ├── escova/
 │   └── martelo/
