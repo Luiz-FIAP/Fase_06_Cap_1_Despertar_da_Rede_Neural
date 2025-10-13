@@ -131,8 +131,8 @@ def load_frozen_graph(model_path):
 A função **segment_image()** aplica o modelo à imagem, gerando uma **máscara** que destaca o objeto de interesse (escova ou martelo) pixel a pixel.
 
 **Resultado visual:**
-![Escova Overlay](docs/examples/escova_overlay.jpg)
-![Martelo Overlay](docs/examples/martelo_overlay.jpg)
+![Escova Overlay](docs/examples/overlay_escova.jpg)
+![Martelo Overlay](docs/examples/overlay_martelo.jpg)
 
 ---
 
