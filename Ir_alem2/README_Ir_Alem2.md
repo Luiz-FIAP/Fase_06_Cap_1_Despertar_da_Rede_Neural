@@ -134,8 +134,10 @@ A função **segment_image()** aplica o modelo à imagem, gerando uma **máscara
 
 <p float="left">
   <img src="docs/examples/overlay_escova.jpg" width="200"/>
+    
   <img src="docs/examples/overlay_martelo.jpg" width="200"/>  
 </p>
+
 ---
 
 ## Geração de Máscaras e Overlays
