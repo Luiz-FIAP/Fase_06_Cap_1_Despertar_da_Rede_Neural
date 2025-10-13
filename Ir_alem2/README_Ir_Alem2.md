@@ -1,3 +1,30 @@
+# Faculdade de Informática e Administração Paulista 
+
+<p align="center">
+  <a href="https://www.fiap.com.br/">
+    <img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" width="40%" />
+  </a>
+</p>
+
+<br>
+
+## Grupo 36
+
+## Integrantes: 
+- <a href="https://github.com/FelipeSabinoTMRS">Felipe Sabino da Silva</a>
+- <a href="https://github.com/juanvoltolini-rm562890">Juan Felipe Voltolini</a>
+- <a href="https://github.com/Luiz-FIAP">Luiz Henrique Ribeiro de Oliveira</a> 
+- <a href="https://github.com/marcofiap">Marco Aurélio Eberhardt Assimpção</a>
+- <a href="https://github.com/PauloSenise">Paulo Henrique Senise</a> 
+
+## Professores:
+### Tutor(a) 
+- <a href="https://github.com/Leoruiz197">Leonardo Ruiz Orabona</a>
+### Coordenador(a)
+- <a href="https://github.com/agodoi">André Godoi</a>
+
+---
+
 # Projeto Fase 6 – Ir Além 2 
 
 Este repositório documenta a implementação completa da tarefa **Ir Além 2** da Fase 6, que envolve o uso de **Transfer Learning + Fine Tuning** e **segmentação de imagens** para melhorar a classificação de objetos. Inclui explicações teóricas, comparações de desempenho e exemplos práticos de segmentação e treinamento.
