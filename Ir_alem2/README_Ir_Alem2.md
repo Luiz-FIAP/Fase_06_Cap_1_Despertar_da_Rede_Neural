@@ -63,16 +63,15 @@ Fase6_IrAlem2/
 │       └── martelo/
 ├── modelos/
 │   └── deeplabv3_pascal_train_aug/
-├── results_segmentados/
+├── results/
 │   ├── escova/
 │   └── martelo/
 └── docs/examples/
-    ├── escova_original.jpg
-    ├── escova_mask.jpg
-    ├── escova_overlay.jpg
-    ├── martelo_overlay.jpg
+    ├── grafico_fine_tuning.png
     ├── grafico_transfer_learning.png
-    └── grafico_fine_tuning.png
+    ├── overlay_escova.jpg
+    ├── overlay_martelo.jpg
+    ├── logo-fiap.png
 ```
 
 ---
