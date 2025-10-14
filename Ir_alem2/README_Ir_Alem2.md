@@ -209,6 +209,23 @@ Esses padrões foram usados para ajustar o número de épocas e o *learning rate
 
 ---
 
+## Comparação com Entregas Anteriores
+Além das técnicas testadas nesta entrega, já havíamos explorado outras abordagens:
+
+| Abordagem | Tarefa | Facilidade | Precisão | Custo (Tempo) | Velocidade | Veredito |
+|-----------|--------|------------|----------|---------------|------------|----------|
+| **CNN do Zero** | Classificação | ★☆☆ | ★★★ | ★☆☆ | ★★★ | Eficaz, mas limitada (só classifica, não detecta/localiza) |
+| **YOLO (customizado)** | Detecção | ★★☆ | ★★★ | ★★☆ | ★★☆ | Solução ideal para detecção e localização |
+| **Transfer Learning (MobileNetV2)** | Classificação | ★★☆ | ★★☆ | ★☆☆ | ★★★ | Rápido e eficiente com poucos dados |
+| **Fine-Tuning** | Classificação | ★★☆ | ★★★ | ★★☆ | ★★☆ | Refina e melhora a generalização |
+| **Segmentação (DeepLabV3+)** | Segmentação | ★☆☆ | ★★★ | ★★★ | ★★☆ | Mais complexo, mas traz interpretabilidade visual |
+
+### Conclusão Integrada
+- **CNN do Zero** → Boa para aprendizado, mas incompleta.  
+- **YOLO Customizado** → Melhor solução para **detecção real de objetos**.  
+- **Transfer Learning + Fine-Tuning** → Ótimo equilíbrio entre precisão e rapidez em **classificação**.  
+- **Segmentação** → Agrega **explicabilidade** e visualização clara, útil para relatórios e validação.
+
 ## Conclusão Final
 
 A combinação de **Transfer Learning + Fine-Tuning + Segmentação** demonstrou ser a mais eficiente e explicável para o problema proposto.
@@ -217,4 +234,4 @@ A combinação de **Transfer Learning + Fine-Tuning + Segmentação** demonstrou
 - **Fine-Tuning:** melhora gradual e refinamento do modelo.
 - **Segmentação:** fornece uma camada extra de interpretação visual.
 
-**Conclusão Final:** o uso de redes pré-treinadas combinado ao refinamento seletivo de camadas e à segmentação visual com DeepLabV3+ resultou em um pipeline robusto, equilibrando desempenho, interpretabilidade e aplicabilidade prática.
+O uso de redes pré-treinadas combinado ao refinamento seletivo de camadas e à segmentação visual com DeepLabV3+ resultou em um pipeline robusto, equilibrando desempenho, interpretabilidade e aplicabilidade prática.
