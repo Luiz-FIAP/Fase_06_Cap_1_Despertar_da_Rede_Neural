@@ -27,9 +27,14 @@
 
 # Fase 6 – Entrega1 – YOLO Customizado
 
-Nesta entrega treinamos o modelo **YOLOv5** para reconhecer dois objetos distintos: **Escova** e **Martelo**.  
-As imagens foram rotuladas no [Make Sense AI](https://www.makesense.ai/) e divididas em treino, validação e teste.  
-O objetivo foi avaliar como o número de épocas impacta no desempenho do modelo.
+## Descrição
+
+Nesta primeira entrega, a equipe da **FarmTech Solutions** desenvolveu um modelo de **visão computacional** utilizando **YOLOv5** para detectar dois objetos distintos:
+
+- **Martelo**  
+- **Escova de dente**
+
+O objetivo foi demonstrar ao cliente fictício da FarmTech a aplicabilidade da detecção de objetos em cenários reais, organizando o dataset, treinando a rede e avaliando seu desempenho.
 
 ---
 
@@ -44,6 +49,23 @@ O objetivo foi avaliar como o número de épocas impacta no desempenho do modelo
 
 ---
 
+## Metodologia
+
+1. **Organização do Dataset**  
+   - 40 imagens de martelo + 40 imagens de escova.  
+   - Divisão em **treino (32)**, **validação (4)** e **teste (4)** para cada classe.  
+
+2. **Rotulação**  
+   - As imagens foram anotadas no [Make Sense AI](https://www.makesense.ai/).  
+   - As anotações foram exportadas no formato YOLO e salvas em `entrega1/labels/`.  
+
+3. **Treinamento no Google Colab**  
+   - O modelo YOLOv5 foi treinado com diferentes números de épocas: **30, 60, 90 e 120**.  
+   - Utilização de GPU gratuita do Colab.  
+   - Resultados salvos automaticamente na pasta `runs/train/exp/`.  
+
+---
+
 ## Resultados do Treinamento (YOLO Customizado)
 
 - Foram realizados treinos com **30, 60, 90 e 120 épocas**.  
@@ -52,6 +74,14 @@ O objetivo foi avaliar como o número de épocas impacta no desempenho do modelo
 - Prints de algumas imagens detectadas (martelo e escova) estão disponíveis na pasta `entrega1/results/`.
 
 > Os gráficos de acurácia e loss não foram exportados no notebook, mas podem ser consultados no diretório `runs/train/exp/` gerado automaticamente pelo YOLO durante o treino.
+
+---
+
+## Exemplos de Detecção
+
+O modelo treinado com 120 épocas foi capaz de detectar com sucesso todos os objetos do conjunto de testes:  
+
+*(Inserir aqui imagens de `entrega1/results/` com bounding boxes)*
 
 ---
 
