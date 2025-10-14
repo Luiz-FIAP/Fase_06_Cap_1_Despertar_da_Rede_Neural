@@ -50,6 +50,6 @@ Esta pasta contém os arquivos referentes à implementação do **Ir Além 1** d
 
 ## Observações
 
-- Este projeto faz parte do **Ir Além 1** (não é obrigatório, mas conta pontos extras).  
+- Este projeto faz parte do **Ir Além 1**  
 - A pasta contém código para reprodutibilidade, mas é necessário configurar rede Wi-Fi e ambiente Python corretamente.  
 
