@@ -44,7 +44,7 @@ Esta pasta contém os arquivos referentes à implementação do **Ir Além 1** d
 
 ## Vídeo de Demonstração
 
-[Link vídeo no YouTube](xxxxx)
+[https://youtu.be/RUuZz9o76YQ](Ir além 1 - ESP32-CAM)
 
 ---
 
