@@ -44,21 +44,14 @@ O objetivo foi avaliar como o número de épocas impacta no desempenho do modelo
 
 ---
 
-## Exemplos de Detecção
+## Resultados do Treinamento (YOLO Customizado)
 
-Exemplos de imagens detectadas no conjunto de teste (bounding boxes):
+- Foram realizados treinos com **30, 60, 90 e 120 épocas**.  
+- A cada aumento de épocas, a acurácia do modelo melhorou progressivamente.  
+- Com 120 épocas, o modelo atingiu **100% de acurácia nos testes**.  
+- Prints de algumas imagens detectadas (martelo e escova) estão disponíveis na pasta `entrega1/results/`.
 
-![Exemplo 1](results/teste1.jpg)  
-![Exemplo 2](results/teste2.jpg)  
-![Exemplo 3](results/teste3.jpg)
-
----
-
-## Gráfico de Treinamento
-
-O gráfico gerado pelo YOLO durante o treinamento (`results.png`) mostra a evolução de **loss**, **precisão**, **recall** e **mAP** ao longo das épocas.
-
-![Gráfico de Treino](results/results.png)
+> Os gráficos de acurácia e loss não foram exportados no notebook, mas podem ser consultados no diretório `runs/train/exp/` gerado automaticamente pelo YOLO durante o treino.
 
 ---
 
