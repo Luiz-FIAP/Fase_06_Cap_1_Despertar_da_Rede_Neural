@@ -235,3 +235,6 @@ A combinação de **Transfer Learning + Fine-Tuning + Segmentação** demonstrou
 - **Segmentação:** fornece uma camada extra de interpretação visual.
 
 O uso de redes pré-treinadas combinado ao refinamento seletivo de camadas e à segmentação visual com DeepLabV3+ resultou em um pipeline robusto, equilibrando desempenho, interpretabilidade e aplicabilidade prática.
+
+## Vídeo de Demonstração
+[[Link para vídeo no YouTube](https://youtu.be/Dd15XC_cJdU)]
