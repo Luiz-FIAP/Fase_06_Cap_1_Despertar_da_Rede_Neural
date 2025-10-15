@@ -126,9 +126,9 @@ Fase_06_Cap_1_Despertar_da_Rede_Neural/
 
 | Modelo | 30 Épocas | 60 Épocas | 90 Épocas | 120 Épocas |
 |--------|-----------|-----------|-----------|------------|
-| **YOLO Customizado** | ✅ | ✅ | ✅ | ✅ |
-| **CNN do Zero** | ✅ | ✅ | ✅ | ✅ |
-| **YOLO Padrão** | ✅ | - | - | - |
+| **YOLO Customizado** | OK | OK | OK | OK |
+| **CNN do Zero** | OK | OK | OK | OK |
+| **YOLO Padrão** | OK | - | - | - |
 
 ### **Métricas de Performance**
 
@@ -166,7 +166,7 @@ jupyter notebook treino.ipynb
 
 ## **Demonstração em Vídeo**
 
-**[Link do Vídeo Demonstrativo](https://youtube.com/watch?v=PLACEHOLDER)** *(até 5 minutos)*
+**[Link do Vídeo Demonstrativo](https://youtu.be/RUuZz9o76YQ)** 
 
 O vídeo demonstra:
 - Funcionamento do sistema de detecção
