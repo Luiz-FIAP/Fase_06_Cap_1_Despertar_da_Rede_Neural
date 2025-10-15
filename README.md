@@ -46,14 +46,14 @@ O objetivo é criar um sistema de visão computacional usando YOLO que demonstre
 Como parte do time de desenvolvedores da FarmTech, criamos um sistema de visão computacional para demonstrar o potencial da tecnologia YOLO a um cliente. O projeto utiliza um dataset personalizado com dois objetos distintos: **Escova de Dente** e **Martelo**.
 
 #### **Metas Alcançadas:**
-- ✅ Dataset organizado com 100 imagens (50 de cada objeto)
-- ✅ Divisão estratégica: 40 imagens para treino, 5 para validação e 5 para teste por classe
-- ✅ Organização no Google Drive com estrutura de pastas adequada
-- ✅ Rotulação completa das imagens usando Make Sense IA
-- ✅ Notebook Colab integrado ao Google Drive
-- ✅ Múltiplas simulações com diferentes épocas (30, 60, 90, 120)
-- ✅ Análise comparativa de acurácia, erro e desempenho
-- ✅ Documentação completa dos resultados
+- Dataset organizado com 100 imagens (50 de cada objeto)
+- Divisão estratégica: 40 imagens para treino, 5 para validação e 5 para teste por classe
+- Organização no Google Drive com estrutura de pastas adequada
+- Rotulação completa das imagens usando Make Sense IA
+- Notebook Colab integrado ao Google Drive
+- Múltiplas simulações com diferentes épocas (30, 60, 90, 120)
+- Análise comparativa de acurácia, erro e desempenho
+- Documentação completa dos resultados
 
 ### **Entrega 2: Comparação de Abordagens de Redes Neurais**
 
@@ -74,32 +74,34 @@ Implementamos e comparamos três abordagens diferentes:
 ## **Estrutura do Projeto**
 
 ```
-📁 Fase_06_Cap_1_Despertar_da_Rede_Neural/
-├── 📁 ESP-CAM/                    # Código para ESP32-CAM
-│   ├── best.pt                    # Modelo treinado
-│   ├── detector_objeto.py         # Script de detecção
-│   └── espcam/espcam.ino         # Código Arduino
-├── 📁 Imagens/                    # Dataset organizado
-│   ├── 📁 Escova/
-│   │   ├── 📁 treino/            # 40 imagens
-│   │   ├── 📁 validação/         # 5 imagens
-│   │   └── 📁 teste/             # 5 imagens
-│   └── 📁 Martelo/
-│       ├── 📁 treino/            # 40 imagens
-│       ├── 📁 validação/         # 5 imagens
-│       └── 📁 teste/             # 5 imagens
-├── 📁 Labels/                     # Arquivos de rotulação YOLO
-├── 📁 Modelos/                    # Resultados dos treinamentos
-│   ├── 📁 CNN_30_epochs/
-│   ├── 📁 CNN_60_epochs/
-│   ├── 📁 CNN_90_epochs/
-│   ├── 📁 CNN_120_epochs/
-│   ├── 📁 Yolo_30_epochs/
-│   ├── 📁 Yolo_60_epochs/
-│   ├── 📁 Yolo_90_epochs/
-│   ├── 📁 Yolo_120_epochs/
-│   └── 📁 Yolo_padrao/
-└── treino.ipynb                  # Notebook principal
+Fase_06_Cap_1_Despertar_da_Rede_Neural/
+│
+├── entrega1/          # Entrega 1 - YOLO Customizado
+│ ├── data/            # Imagens organizadas (treino, validação, teste)
+│ ├── labels/          # Arquivos de rotulação (YOLO format)
+│ ├── notebooks/       # Notebooks utilizados para treino
+│ └── README.md        # Documentação da Entrega 1
+│
+├── entrega2/          # Entrega 2 - Comparação de Modelos
+│ ├── notebooks/       # Notebooks com experimentos CNN, YOLO, etc.
+│ ├── results/         # Resultados (gráficos, métricas e análises)
+│ └── README.md        # Documentação da Entrega 2
+│
+├── ir_alem1/              # Ir Além 1 - ESP32-CAM
+│ ├── Imagens/             # Conjunto de imagens para testes
+│ ├── espcam/              # Código Arduino para a ESP32-CAM
+│ ├── best.pt              # Modelo YOLO treinado para ESP32
+│ ├── detector_objeto.py   # Script Python para rodar a inferência
+│ └── README.md            # Documentação do Ir Além 1
+│
+├── Ir_alem2/               # Ir Além 2 - CNN + Transfer Learning + Segmentação
+│ ├── dataset/              # Dados utilizados nos experimentos
+│ ├── docs/examples/        # Exemplos e logo da FIAP
+│ ├── notebooks/            # Notebooks com códigos dos experimentos
+│ ├── results/              # Resultados de métricas, gráficos e análises
+│ └── README_Ir_Alem2.md    # Documentação do Ir Além 2
+│
+└── README.md # README geral do projeto
 ```
 
 ---
@@ -208,4 +210,4 @@ Para dúvidas ou sugestões, entre em contato com qualquer membro do **Grupo 32*
 
 ---
 
-*Projeto desenvolvido com 💙 pelo Grupo 32 - FIAP 2025*
+*Projeto desenvolvido pelo Grupo 32 - FIAP 2025*
