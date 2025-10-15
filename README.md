@@ -1,4 +1,4 @@
-# FIAP - Faculdade de Informática e Administração Paulista 
+# Faculdade de Informática e Administração Paulista 
 
 <p align="center">
   <a href="https://www.fiap.com.br/">
