@@ -101,6 +101,6 @@ Para não sobrecarregar o repositório, o dataset completo e todos os resultados
 ## Vídeo
 
 O vídeo com a demonstração dos resultados está disponível no YouTube (não listado):  
-(link do vídeo)
+([link do vídeo](https://youtu.be/Dd15XC_cJdU))
 
 ---
