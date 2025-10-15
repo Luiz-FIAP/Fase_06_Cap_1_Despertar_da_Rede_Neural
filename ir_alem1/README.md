@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://www.fiap.com.br/">
-    <img src="/docs/examples/logo-fiap.png" alt="FIAP - Faculdade de Informática e Administração Paulista" width="40%" />
+    <img src="../ir_alem2/docs/examples/logo-fiap.png" alt="FIAP" width="40%" />
   </a>
 </p>
 
