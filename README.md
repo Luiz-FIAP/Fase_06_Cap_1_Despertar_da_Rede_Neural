@@ -12,9 +12,9 @@
 
 ---
 
-## 🚀 **Fase 6 - Cap 1: Despertar da Rede Neural**
+## **Fase 6 - Cap 1: Despertar da Rede Neural**
 
-### 📋 **Descrição Rápida do Projeto**
+### **Descrição Rápida do Projeto**
 
 Este projeto faz parte da Fase 6 da FIAP, onde desenvolvemos uma rede neural para visão computacional. A FarmTech Solutions está expandindo seus serviços de IA para além do agronegócio, atuando em áreas como saúde animal, segurança patrimonial, controle de acessos e análise de documentos, com foco especial em visão computacional.
 
@@ -22,16 +22,16 @@ O objetivo é criar um sistema de visão computacional usando YOLO que demonstre
 
 ---
 
-## 👥 **Grupo 20**
+## **Grupo 32**
 
-### 👨‍🎓 **Integrantes:** 
+### **Integrantes:** 
 - <a href="https://github.com/FelipeSabinoTMRS">Felipe Sabino da Silva</a>
 - <a href="https://github.com/juanvoltolini-rm562890">Juan Felipe Voltolini</a>
 - <a href="https://github.com/Luiz-FIAP">Luiz Henrique Ribeiro de Oliveira</a> 
 - <a href="https://github.com/marcofiap">Marco Aurélio Eberhardt Assimpção</a>
 - <a href="https://github.com/PauloSenise">Paulo Henrique Senise</a> 
 
-### 👩‍🏫 **Professores:**
+### **Professores:**
 #### Tutor(a) 
 - <a href="https://github.com/Leoruiz197">Leonardo Ruiz Orabona</a>
 #### Coordenador(a)
@@ -39,7 +39,7 @@ O objetivo é criar um sistema de visão computacional usando YOLO que demonstre
 
 ---
 
-## 📖 **Descrição Detalhada do Projeto**
+## **Descrição Detalhada do Projeto**
 
 ### **Entrega 1: Sistema de Visão Computacional com YOLO Customizado**
 
@@ -64,14 +64,14 @@ Implementamos e comparamos três abordagens diferentes:
 3. **CNN Treinada do Zero**
 
 #### **Critérios de Avaliação:**
-- 📊 Facilidade de uso/integração
-- 🎯 Precisão do modelo
-- ⏱️ Tempo de treinamento/customização
-- 🚀 Tempo de inferência (predição)
+- Facilidade de uso/integração
+- Precisão do modelo
+- Tempo de treinamento/customização
+- Tempo de inferência (predição)
 
 ---
 
-## 🗂️ **Estrutura do Projeto**
+## **Estrutura do Projeto**
 
 ```
 📁 Fase_06_Cap_1_Despertar_da_Rede_Neural/
@@ -104,7 +104,7 @@ Implementamos e comparamos três abordagens diferentes:
 
 ---
 
-## 🛠️ **Tecnologias Utilizadas**
+## **Tecnologias Utilizadas**
 
 - **Python 3.x**
 - **YOLOv5** - Detecção de objetos
@@ -118,7 +118,7 @@ Implementamos e comparamos três abordagens diferentes:
 
 ---
 
-## 📊 **Resultados e Análises**
+## **Resultados e Análises**
 
 ### **Comparativo de Modelos por Épocas**
 
@@ -134,7 +134,7 @@ Os resultados detalhados, incluindo gráficos de acurácia, perda e exemplos de 
 
 ---
 
-## 🚀 **Como Executar o Projeto**
+## **Como Executar o Projeto**
 
 ### **1. Acesso ao Notebook**
 - **Link do Colab:** [Abrir no Google Colab](https://colab.research.google.com/drive/1VWfnKT9DSHvnZYkYOvalKQRPiONKgcQX?usp=sharing)
@@ -162,9 +162,9 @@ jupyter notebook treino.ipynb
 
 ---
 
-## 🎥 **Demonstração em Vídeo**
+## **Demonstração em Vídeo**
 
-📹 **[Link do Vídeo Demonstrativo](https://youtube.com/watch?v=PLACEHOLDER)** *(até 5 minutos)*
+**[Link do Vídeo Demonstrativo](https://youtube.com/watch?v=PLACEHOLDER)** *(até 5 minutos)*
 
 O vídeo demonstra:
 - Funcionamento do sistema de detecção
@@ -174,7 +174,7 @@ O vídeo demonstra:
 
 ---
 
-## 📈 **Conclusões e Insights**
+## **Conclusões e Insights**
 
 ### **Principais Descobertas:**
 
@@ -189,23 +189,23 @@ O vídeo demonstra:
 
 ---
 
-## 📚 **Referências e Recursos Adicionais**
+## **Referências e Recursos Adicionais**
 
 - [Documentação YOLOv5](https://github.com/ultralytics/yolov5)
 - [Make Sense IA](https://www.makesense.ai/)
 
 ---
 
-## 📄 **Licença**
+## **Licença**
 
 Este projeto é desenvolvido para fins acadêmicos como parte do curso da FIAP.
 
 ---
 
-## 📞 **Contato**
+## **Contato**
 
-Para dúvidas ou sugestões, entre em contato com qualquer membro do **Grupo 20** através dos links do GitHub fornecidos acima.
+Para dúvidas ou sugestões, entre em contato com qualquer membro do **Grupo 32** através dos links do GitHub fornecidos acima.
 
 ---
 
-*Projeto desenvolvido com 💙 pelo Grupo 20 - FIAP 2025*
+*Projeto desenvolvido com 💙 pelo Grupo 32 - FIAP 2025*
