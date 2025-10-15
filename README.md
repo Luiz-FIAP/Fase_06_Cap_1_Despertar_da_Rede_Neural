@@ -71,6 +71,22 @@ Implementamos e comparamos três abordagens diferentes:
 
 ---
 
+### Ir Além 1: ESP32-CAM com Modelo YOLO Treinado
+Para demonstrar aplicação prática em hardware, utilizamos a **ESP32-CAM** para rodar o modelo YOLO treinado.  
+O sistema captura imagens em tempo real e realiza a detecção dos objetos (**martelo e escova de dente**) diretamente no microcontrolador, validando a aplicabilidade do modelo fora do ambiente de laboratório.
+
+**Resultados:**
+- Inferência embarcada com boa taxa de acerto  
+- Código em C++/Arduino integrado com Python (detector_objeto.py)  
+- Demonstração em vídeo do funcionamento  
+
+---
+
+### Ir Além 2: Transfer Learning + Segmentação
+Implementamos uma abordagem de **Transfer Learning** aliada à **segmentação de imagens**, explorando técnicas avançadas para melhorar ainda mais a robustez do modelo.
+
+---
+
 ## **Estrutura do Projeto**
 
 ```
