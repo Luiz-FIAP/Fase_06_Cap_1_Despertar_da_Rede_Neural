@@ -101,7 +101,7 @@ Fase_06_Cap_1_Despertar_da_Rede_Neural/
 │ ├── results/              # Resultados de métricas, gráficos e análises
 │ └── README_Ir_Alem2.md    # Documentação do Ir Além 2
 │
-└── README.md # README geral do projeto
+└── README.md               # README geral do projeto
 ```
 
 ---
